@@ -166,7 +166,8 @@ nav a {
 
 .project-card h3,
 .info-card h3 {
-  margin: 12px 0;
+  margin: 18px 0 14px;
+  line-height: 1.45;
 }
 
 .skill-list {
