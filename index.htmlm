@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Parvini Manocha | Portfolio</title>
+  <meta name="description" content="The portfolio of Parvini Manocha — marketing, data, and creativity.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <a class="logo" href="index.html">PM<span>.</span></a>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="projects.html">Projects</a>
+      <a href="experience.html">Experience</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-text">
+        <p class="eyebrow">WELCOME TO MY LITTLE CORNER OF THE INTERNET</p>
+        <h1>Hey, I'm<br>Parvini <span>Manocha!</span></h1>
+        <h2>Marketing, data, and creativity — all in one place.</h2>
+        <p class="intro">
+          I enjoy turning research, data, and ideas into meaningful insights
+          and thoughtful marketing experiences.
+        </p>
+        <div class="buttons">
+          <a class="button" href="projects.html">Explore my work ↗</a>
+          <a class="button button-light" href="about.html">A little about me</a>
+        </div>
+      </div>
+
+      <div class="hero-picture">
+        <img src="assets/profile.jpg" alt="Portrait of Parvini Manocha">
+        <span class="picture-label">A little creativity, a lot of curiosity ✳</span>
+      </div>
+    </section>
+
+    <section class="intro-section">
+      <p class="eyebrow">WHAT I BRING TO THE TABLE</p>
+      <h2>Curious by nature.<br><span>Analytical by habit.</span></h2>
+      <p>
+        From marketing operations and CRM campaigns to dashboards and
+        business research, I love connecting the dots between data and ideas.
+      </p>
+
+      <div class="skills">
+        <span>Marketing Operations</span>
+        <span>CRM & Email Campaigns</span>
+        <span>Excel & Power BI</span>
+        <span>Business Research</span>
+        <span>Data & Reporting</span>
+      </div>
+    </section>
+
+    <section class="work-section">
+      <p class="eyebrow">A FEW THINGS I'VE WORKED ON</p>
+      <h2>Selected work</h2>
+
+      <div class="project-grid">
+        <article class="project-card">
+          <p class="project-number">01 / ANALYTICS</p>
+          <h3>Marketing Dashboard</h3>
+          <p>Visualising campaign performance and key marketing metrics.</p>
+          <a href="projects.html">Discover project ↗</a>
+        </article>
+
+        <article class="project-card yellow-card">
+          <p class="project-number">02 / CRM</p>
+          <h3>Campaign Operations</h3>
+          <p>Exploring email campaigns, audience data, and performance reporting.</p>
+          <a href="projects.html">Discover project ↗</a>
+        </article>
+
+        <article class="project-card">
+          <p class="project-number">03 / RESEARCH</p>
+          <h3>Business Research</h3>
+          <p>Turning company research into
