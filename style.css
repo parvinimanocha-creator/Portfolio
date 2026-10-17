@@ -777,3 +777,151 @@ nav a[aria-current="location"]:hover {
   background: #dcefdc;
   color: #294b39;
 }
+
+
+/* June-inspired palette: Sweet Daisy, Honeysuckle, Fuzzy Peach, Moss Green, Sage, Coral Blush */
+body {
+  background: #FFFBF0;
+  color: #3f472e;
+}
+
+.navbar {
+  background: #FFFBF0;
+}
+
+.logo,
+.hero h1,
+.section h2,
+.info-card h3,
+.project-card h3 {
+  color: #526536;
+}
+
+.hero {
+  background:
+    radial-gradient(ellipse at 83% 20%, rgba(254, 220, 123, 0.35), transparent 35%),
+    linear-gradient(115deg, #FFFBF0 0%, #FFFBF0 62%, #fff2d0 100%);
+}
+
+.hero h1 span,
+.eyebrow,
+.tagline,
+.project-card span,
+footer {
+  color: #708240;
+}
+
+.button {
+  background: #FEDC7B;
+  color: #3f472e;
+  border-color: #e9c65f;
+}
+
+.button-primary {
+  background: #708240;
+  color: #FFFBF0;
+  border-color: #708240;
+}
+
+.button-secondary {
+  background: #FEDC7B;
+  color: #3f472e;
+  border-color: #e9c65f;
+}
+
+.profile-photo {
+  border-color: #FEDC7B;
+  background: #ABBA72;
+}
+
+.info-card,
+.project-card {
+  background: #fffdf7;
+  border-color: #e8e2c9;
+}
+
+.project-card {
+  border-bottom-color: #ABBA72;
+}
+
+.project-image {
+  background: #f5f0df;
+}
+
+.skill-list span {
+  background: #ABBA72;
+  color: #303a20;
+}
+
+.contact {
+  background: #e8edda;
+}
+
+.contact .button {
+  background: #FEDC7B;
+  border-color: #e9c65f;
+  color: #3f472e;
+}
+
+nav a:hover,
+nav a:focus-visible {
+  background: #ABBA72;
+  color: #303a20;
+}
+
+nav a.active,
+nav a[aria-current="location"],
+nav a[aria-current="page"] {
+  background: #FEDC7B;
+  color: #3f472e;
+  border-radius: 24px;
+}
+
+nav a.active:hover,
+nav a[aria-current="location"]:hover,
+nav a[aria-current="page"]:hover {
+  background: #FEDC7B;
+  color: #3f472e;
+}
+
+.home-hero {
+  background:
+    radial-gradient(ellipse at 85% 18%, rgba(254, 220, 123, 0.35), transparent 34%),
+    linear-gradient(115deg, #FFFBF0 0%, #FFFBF0 64%, #fff2d0 100%);
+}
+
+.home-copy h1,
+.home-copy h1 span {
+  color: #708240;
+}
+
+.home-lead {
+  color: #708240;
+}
+
+.home-actions .button:first-child {
+  background: #FEDC7B;
+  border-color: #e9c65f;
+}
+
+.home-actions .button:last-child {
+  background: transparent;
+  border-color: #ABBA72;
+}
+
+.home-photo {
+  border-color: #ABBA72;
+}
+
+.home-note {
+  color: #3f472e;
+  background: #ABBA72;
+}
+
+@media (max-width: 700px) {
+  .hero {
+    background:
+      radial-gradient(ellipse at 83% 20%, rgba(254, 220, 123, 0.25), transparent 35%),
+      linear-gradient(115deg, #FFFBF0 0%, #FFFBF0 62%, #fff2d0 100%);
+  }
+}
