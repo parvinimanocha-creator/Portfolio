@@ -1038,3 +1038,15 @@ nav a:focus-visible {
 /* Hero heading contrast: greeting in lighter green, name in dark green */
 .hero h1 .hero-greeting { color: #708240; }
 .hero h1 .hero-name { color: #153c2c; }
+
+
+/* Make the full BUSINESS · MARKETING · ANALYTICS eyebrow red */
+.home-copy .eyebrow,
+.hero .eyebrow,
+.eyebrow {
+  color: #DF6149;
+}
+.home-copy .eyebrow::before,
+.hero .eyebrow::before {
+  color: #DF6149;
+}
