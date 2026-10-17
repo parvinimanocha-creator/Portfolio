@@ -762,3 +762,18 @@ nav a[aria-current="location"]:hover {
     scroll-behavior: auto;
   }
 }
+
+
+/* Set the active navigation highlight to light green */
+nav a.active,
+nav a[aria-current="location"] {
+  background: #dcefdc;
+  color: #294b39;
+  border-radius: 24px;
+}
+
+nav a.active:hover,
+nav a[aria-current="location"]:hover {
+  background: #dcefdc;
+  color: #294b39;
+}
