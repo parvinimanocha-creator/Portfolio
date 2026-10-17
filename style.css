@@ -993,3 +993,30 @@ nav a:focus-visible {
   margin-left: 3px;
   vertical-align: 0.02em;
 }
+
+
+/* Portfolio refinements: compact dark-green PM mark, coral accents, lifted hero and larger portrait */
+.navbar .logo { color: #52663B; }
+.navbar .logo-sparkle { color: #52663B; }
+.home-hero, .hero {
+  padding-top: 34px;
+  padding-bottom: 44px;
+  align-items: center;
+}
+.home-photo { width: min(360px, 34vw); max-width: 100%; border-color: #DF6149; }
+.home-photo-wrap { transform: translateY(-10px); }
+.home-actions .button:first-child, .hero .button, .button {
+  background: #DF6149;
+  border-color: #DF6149;
+  color: #FFFBF0;
+}
+.home-actions .button:last-child { background: transparent; border-color: #DF6149; color: #DF6149; }
+.home-note { border-top-color: #DF6149; }
+.home-hero { background: radial-gradient(ellipse at 85% 18%, rgba(223, 97, 73, 0.13), transparent 34%), #FFFBF0; }
+@media (max-width: 700px) { .home-photo { width: min(320px, 78vw); } }
+/* Corner doodles, deliberately kept away from the main text and portrait */
+.home-hero { position: relative; overflow: hidden; }
+.home-hero::before, .home-hero::after { position: absolute; pointer-events: none; z-index: 0; font-family: cursive; font-weight: 400; line-height: 1; }
+.home-hero::before { content: "〰"; top: 12px; left: 22px; color: #DF6149; font-size: 42px; transform: rotate(-35deg); }
+.home-hero::after { content: "〰"; right: 22px; bottom: 14px; color: #52663B; font-size: 38px; transform: rotate(145deg); }
+.home-copy, .home-photo-wrap { position: relative; z-index: 1; }
