@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home | Parvini Manocha</title>
+  <meta name="description" content="Welcome to Parvini Manocha's portfolio — business, data, research, and ideas.">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .home-hero { min-height: calc(100vh - 82px); display:flex; align-items:center; justify-content:space-between; gap:clamp(36px,7vw,100px); padding:70px 7%; background:radial-gradient(ellipse at 85% 18%,rgba(249,231,164,.42),transparent 34%),linear-gradient(115deg,#f0f8f2 0%,#f7faf5 64%,#fff8df 100%); }
+    .home-copy { max-width:720px; }
+    .home-copy .eyebrow { font-size:.9rem; }
+    .home-copy h1 { color:#153c2c; font-size:clamp(3rem,6.5vw,5.6rem); line-height:1.04; letter-spacing:-2.5px; margin:0 0 24px; }
+    .home-copy h1 span { color:#5b9568; }
+    .home-lead { color:#5b9568; font-size:clamp(1.25rem,2.2vw,1.65rem); font-weight:750; margin-bottom:18px; }
+    .home-intro { max-width:600px; color:#4c6658; font-size:1.15rem; line-height:1.9; margin-bottom:30px; }
+    .home-actions { display:flex; flex-wrap:wrap; gap:14px; }
+    .home-actions .button { text-decoration:none; }
+    .home-actions .button:first-child { background:#dcefdc; border-color:#b9d9bc; }
+    .home-actions .button:last-child { background:transparent; border-color:#9cbea1; }
+    .home-photo-wrap { flex:0 1 350px; width:min(350px,35%); min-width:245px; }
+    .home-photo { display:block; width:100%; height:min(62vh,500px); min-height:340px; object-fit:cover; object-position:center top; border:7px solid #c6e4c8; border-radius:48% 48% 28px 28px; box-shadow:0 18px 45px rgba(21,60,44,.10); }
+    .home-note { padding:24px 7%; text-align:center; color:#5b7164; background:#e2f1e2; }
+    @media(max-width:760px) { .home-hero { flex-direction:column; align-items:flex-start; padding:48px 7%; } .home-copy h1 { font-size:clamp(2.8rem,12vw,4rem); letter-spacing:-1.5px; } .home-photo-wrap { width:min(310px,82%); min-width:0; align-self:center; } .home-photo { height:360px; min-height:0; } .home-intro { font-size:1.05rem; } }
+  </style>
+</head>
+<body>
+  <header class="navbar">
+    <a class="logo" href="home.html">PM.</a>
+    <nav aria-label="Main navigation">
+      <a class="active" aria-current="page" href="home.html">Home</a>
+      <a href="index.html#about">About</a>
+      <a href="index.html#experience">Experience</a>
+      <a href="index.html#projects">Projects</a>
+      <a href="index.html#certifications">Certifications</a>
+      <a href="index.html#contact">Contact</a>
+    </nav>
+  </header>
+  <main>
+    <section class="home-hero">
+      <div class="home-copy">
+        <p class="eyebrow">BUSINESS · DATA · IDEAS</p>
+        <h1>Hello, welcome!<br>I'm <span>Parvini Manocha.</span></h1>
+        <p class="home-lead">Where business, data, and ideas come together.</p>
+        <p class="home-intro">I bring together business understanding, data analysis, research, and hands-on execution to turn information into clear insights and practical improvements. Explore my work, experience, and the skills I’m continuing to build.</p>
+        <div class="home-actions">
+          <a class="button" href="index.html#projects">Explore My Portfolio ↗</a>
+          <a class="button" href="index.html#contact">Contact Me ↗</a>
+        </div>
+      </div>
+      <div class="home-photo-wrap"><img class="home-photo" src="parviniimg.png" alt="Parvini Manocha"></div>
+    </section>
+    <div class="home-note">Curious mind. Creative approach. Always learning. 🌿</div>
+  </main>
+</body>
+</html>
