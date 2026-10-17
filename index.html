@@ -193,5 +193,47 @@
   </main>
 
   <footer>Made with care by Parvini Manocha 🌿</footer>
+  <script>
+    (() => {
+      const links = Array.from(document.querySelectorAll('.navbar nav a[href^="#"]'));
+      const sections = links
+        .map(link => document.querySelector(link.getAttribute('href')))
+        .filter(Boolean);
+
+      function setActive(id) {
+        links.forEach(link => {
+          const active = link.getAttribute('href') === '#' + id;
+          link.classList.toggle('active', active);
+          if (active) {
+            link.setAttribute('aria-current', 'location');
+          } else {
+            link.removeAttribute('aria-current');
+          }
+        });
+      }
+
+      links.forEach(link => {
+        link.addEventListener('click', () => {
+          const id = link.getAttribute('href').slice(1);
+          setActive(id);
+        });
+      });
+
+      if ('IntersectionObserver' in window) {
+        const observer = new IntersectionObserver(entries => {
+          const visible = entries
+            .filter(entry => entry.isIntersecting)
+            .sort((a, b) => b.intersectionRatio - a.intersectionRatio)[0];
+          if (visible) setActive(visible.target.id);
+        }, { rootMargin: '-20% 0px -55% 0px', threshold: [0, 0.1, 0.25, 0.5] });
+        sections.forEach(section => observer.observe(section));
+      }
+
+      const initialId = window.location.hash.slice(1);
+      if (sections.some(section => section.id === initialId)) {
+        setActive(initialId);
+      }
+    })();
+  </script>
 </body>
 </html>
