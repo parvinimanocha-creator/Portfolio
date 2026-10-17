@@ -1020,3 +1020,16 @@ nav a:focus-visible {
 .home-hero::before { content: "〰"; top: 12px; left: 22px; color: #DF6149; font-size: 42px; transform: rotate(-35deg); }
 .home-hero::after { content: "〰"; right: 22px; bottom: 14px; color: #52663B; font-size: 38px; transform: rotate(145deg); }
 .home-copy, .home-photo-wrap { position: relative; z-index: 1; }
+
+
+/* Separate the greeting from the name in the main hero */
+.hero h1 .hero-greeting {
+  display: block;
+  font-size: 0.72em;
+  line-height: 1.15;
+  letter-spacing: -1px;
+  color: #153c2c;
+}
+.hero h1 .hero-name {
+  display: block;
+}
