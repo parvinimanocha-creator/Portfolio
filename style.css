@@ -1057,3 +1057,9 @@ nav a:focus-visible {
 .navbar .logo-sparkle {
   color: #153c2c !important;
 }
+
+
+/* Yellow sparkle icon beside LET'S CONNECT */
+.contact .eyebrow::before {
+  color: #FEDC7B !important;
+}
