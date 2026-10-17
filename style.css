@@ -977,3 +977,19 @@ nav a:hover,
 nav a:focus-visible {
   box-shadow: inset 0 -3px 0 #F49069;
 }
+
+
+/* Wordmark: Parvini with a coral-blush sparkle */
+.navbar .logo {
+  color: #708240;
+  font-size: clamp(1.35rem, 2.2vw, 1.8rem);
+  letter-spacing: -0.5px;
+  white-space: nowrap;
+}
+.navbar .logo-sparkle {
+  color: #DF6149;
+  display: inline-block;
+  font-size: 1.15em;
+  margin-left: 3px;
+  vertical-align: 0.02em;
+}
