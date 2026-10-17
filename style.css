@@ -1050,3 +1050,10 @@ nav a:focus-visible {
 .hero .eyebrow::before {
   color: #DF6149;
 }
+
+
+/* Keep both PM letters and sparkle the same dark green */
+.navbar .logo,
+.navbar .logo-sparkle {
+  color: #153c2c !important;
+}
